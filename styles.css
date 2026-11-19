@@ -740,3 +740,6 @@ html:not(.js) .masthead__toggle { display: none; }
 @media (hover: hover) { .footer__social a:hover { color: var(--brass); } }
 @media (max-width: 760px) { .chef__photos { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (prefers-reduced-motion: no-preference) { @supports (animation-timeline: view()) { .chef__photo { animation: settle-in linear both; animation-timeline: view(); animation-range: entry 0% entry 38%; } } }
+
+.visit__email { margin-top: 30px; }
+.visit .rows dd a { display: inline-flex; align-items: center; min-height: 44px; overflow-wrap: anywhere; color: var(--cream); text-underline-offset: 4px; text-decoration-thickness: 1px; }
