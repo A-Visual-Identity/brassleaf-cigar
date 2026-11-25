@@ -772,3 +772,13 @@ html:not(.js) .masthead__toggle { display: none; }
   .ba__panels { grid-template-columns: 1fr; }
   .ba__frame img[style] { aspect-ratio: var(--rm); object-position: var(--pm); }
 }
+
+/* The Brass Leaf Live Jazz Experience (Dale, 25 Nov 2026): his words, laid out like Open now. */
+.jazz { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 28px clamp(32px, 6vw, 104px); align-items: start; }
+.jazz h2 { color: var(--oxblood); }
+.jazz__lead .lead { margin-top: 22px; max-width: 22em; }
+.jazz__lead .actions { margin-top: 22px; }
+.jazz__text { padding-top: 13px; border-top: 1px solid var(--hair); }
+.jazz__text p { font-size: 1.125rem; max-width: 34rem; }
+.jazz__text p + p { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--hair); }
+@media (max-width: 760px) { .jazz { grid-template-columns: 1fr; } }
